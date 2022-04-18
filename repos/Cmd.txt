@@ -1,0 +1,12 @@
+Scaffold-Dbcontext "Server=.\SQLExpress; Database=HumanResource; Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Create Models
+Add Nuget Packegis
+Add Connection
+add connection in appsettings
+cd .\projectname
+dotnet ef migration Initiation
+dotnet ef migration add Initiation
+dotnet ef database update
+Create Controllers
+Check Database Created
+Create Angular App

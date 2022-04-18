@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Customers";
+}
+
+<form>
+    <label>Name</label>
+    <input type="text"  placeholder="Provide Name"/><br />
+    <label>Age</label>
+    <input type="Number"/><br />
+    <submit ></submit>
+</form>
+<script lang="ja" type="text/javascript">    
+function PostData()  
+{    
+ var cardetails =
+    {
+        CarName: "Ertiga",
+        CarModel: "LXI"
+    };  
+  
+    $.ajax({  
+        type: "POST",  
+        data: JSON.stringify(cardetails),  
+        url: "https://localhost:44348/api/CustomerDetails  
+        dataType: "json",  
+        contentType: "application/json",  
+    });  
+} 
+</script>

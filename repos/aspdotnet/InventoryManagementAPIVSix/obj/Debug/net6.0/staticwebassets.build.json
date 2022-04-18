@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "R8EJtBykQCWxZfzVtwqKrYx75hLOmzHHgamrbPyGMAA=",
+  "Source": "InventoryManagementAPIVSix",
+  "BasePath": "_content/InventoryManagementAPIVSix",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

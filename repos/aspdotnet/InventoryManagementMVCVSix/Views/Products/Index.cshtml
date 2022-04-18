@@ -1,0 +1,83 @@
+﻿@model IEnumerable<InventoryManagementMVCVSix.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                Manufacturer
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductQuantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                Distributor
+            </th>
+            <th>
+                Distributor Address
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DistributorContact)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastModificationDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ManufacturerName)<br>
+                @Html.DisplayFor(modelItem => item.ManufacturerContact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductQuantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.CategoryType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DistributorName)<br>
+                @Html.DisplayFor(modelItem => item.DistributorContact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BuildNo), @Html.DisplayFor(modelItem => item.Street)<br>
+                @Html.DisplayFor(modelItem => item.Area), @Html.DisplayFor(modelItem => item.City) - @Html.DisplayFor(modelItem => item.ZipCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastModificationDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Product INOUT</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

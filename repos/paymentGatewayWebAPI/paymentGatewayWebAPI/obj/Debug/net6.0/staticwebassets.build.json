@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MZJTPM5AqcLpWxvFnTTuAwmh3h7REvkNMEWIogUTl9A=",
+  "Source": "paymentGatewayWebAPI",
+  "BasePath": "_content/paymentGatewayWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

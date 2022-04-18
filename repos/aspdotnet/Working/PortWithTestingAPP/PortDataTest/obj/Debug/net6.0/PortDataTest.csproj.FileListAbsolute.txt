@@ -1,0 +1,5 @@
+C:\Users\raytex\source\repos\aspdotnet\PortWithTestingAPP\PortDataTest\obj\Debug\net6.0\PortDataTest.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\aspdotnet\PortWithTestingAPP\PortDataTest\obj\Debug\net6.0\PortDataTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raytex\source\repos\aspdotnet\PortWithTestingAPP\PortDataTest\obj\Debug\net6.0\PortDataTest.AssemblyInfoInputs.cache
+C:\Users\raytex\source\repos\aspdotnet\PortWithTestingAPP\PortDataTest\obj\Debug\net6.0\PortDataTest.AssemblyInfo.cs
+C:\Users\raytex\source\repos\aspdotnet\PortWithTestingAPP\PortDataTest\obj\Debug\net6.0\PortDataTest.csproj.CoreCompileInputs.cache

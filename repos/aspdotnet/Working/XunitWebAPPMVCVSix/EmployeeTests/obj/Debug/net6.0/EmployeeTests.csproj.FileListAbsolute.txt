@@ -1,0 +1,5 @@
+C:\Users\raytex\source\repos\aspdotnet\XunitWebAPPMVCVSix\EmployeeTests\obj\Debug\net6.0\EmployeeTests.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\aspdotnet\XunitWebAPPMVCVSix\EmployeeTests\obj\Debug\net6.0\EmployeeTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raytex\source\repos\aspdotnet\XunitWebAPPMVCVSix\EmployeeTests\obj\Debug\net6.0\EmployeeTests.AssemblyInfoInputs.cache
+C:\Users\raytex\source\repos\aspdotnet\XunitWebAPPMVCVSix\EmployeeTests\obj\Debug\net6.0\EmployeeTests.AssemblyInfo.cs
+C:\Users\raytex\source\repos\aspdotnet\XunitWebAPPMVCVSix\EmployeeTests\obj\Debug\net6.0\EmployeeTests.csproj.CoreCompileInputs.cache

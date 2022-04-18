@@ -1,0 +1,8 @@
+C:\Users\raytex\source\repos\aspdotnet\ChatbotDB\ConsoleAppServer\ConsoleAppServer\bin\Debug\ConsoleAppServer.exe.config
+C:\Users\raytex\source\repos\aspdotnet\ChatbotDB\ConsoleAppServer\ConsoleAppServer\bin\Debug\ConsoleAppServer.exe
+C:\Users\raytex\source\repos\aspdotnet\ChatbotDB\ConsoleAppServer\ConsoleAppServer\bin\Debug\ConsoleAppServer.pdb
+C:\Users\raytex\source\repos\aspdotnet\ChatbotDB\ConsoleAppServer\ConsoleAppServer\obj\Debug\ConsoleAppServer.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\aspdotnet\ChatbotDB\ConsoleAppServer\ConsoleAppServer\obj\Debug\ConsoleAppServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\aspdotnet\ChatbotDB\ConsoleAppServer\ConsoleAppServer\obj\Debug\ConsoleAppServer.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\aspdotnet\ChatbotDB\ConsoleAppServer\ConsoleAppServer\obj\Debug\ConsoleAppServer.exe
+C:\Users\raytex\source\repos\aspdotnet\ChatbotDB\ConsoleAppServer\ConsoleAppServer\obj\Debug\ConsoleAppServer.pdb

@@ -1,0 +1,15 @@
+C:\Users\raytex\source\repos\studentreg\studentreg\bin\Debug\net6.0\studentreg.exe
+C:\Users\raytex\source\repos\studentreg\studentreg\bin\Debug\net6.0\studentreg.deps.json
+C:\Users\raytex\source\repos\studentreg\studentreg\bin\Debug\net6.0\studentreg.runtimeconfig.json
+C:\Users\raytex\source\repos\studentreg\studentreg\bin\Debug\net6.0\studentreg.dll
+C:\Users\raytex\source\repos\studentreg\studentreg\bin\Debug\net6.0\studentreg.pdb
+C:\Users\raytex\source\repos\studentreg\studentreg\obj\Debug\net6.0\studentreg.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\studentreg\studentreg\obj\Debug\net6.0\studentreg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raytex\source\repos\studentreg\studentreg\obj\Debug\net6.0\studentreg.AssemblyInfoInputs.cache
+C:\Users\raytex\source\repos\studentreg\studentreg\obj\Debug\net6.0\studentreg.AssemblyInfo.cs
+C:\Users\raytex\source\repos\studentreg\studentreg\obj\Debug\net6.0\studentreg.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\studentreg\studentreg\obj\Debug\net6.0\studentreg.dll
+C:\Users\raytex\source\repos\studentreg\studentreg\obj\Debug\net6.0\refint\studentreg.dll
+C:\Users\raytex\source\repos\studentreg\studentreg\obj\Debug\net6.0\studentreg.pdb
+C:\Users\raytex\source\repos\studentreg\studentreg\obj\Debug\net6.0\studentreg.genruntimeconfig.cache
+C:\Users\raytex\source\repos\studentreg\studentreg\obj\Debug\net6.0\ref\studentreg.dll

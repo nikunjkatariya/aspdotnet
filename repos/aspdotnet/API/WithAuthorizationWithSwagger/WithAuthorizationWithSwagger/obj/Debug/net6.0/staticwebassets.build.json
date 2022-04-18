@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7eatQGRrIgieRY6Cb6nUvYeoAbCVmsUPHhuWcqROxqc=",
+  "Source": "WithAuthorizationWithSwagger",
+  "BasePath": "_content/WithAuthorizationWithSwagger",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

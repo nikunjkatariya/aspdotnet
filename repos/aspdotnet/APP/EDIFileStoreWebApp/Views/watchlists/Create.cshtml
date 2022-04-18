@@ -1,0 +1,63 @@
+﻿@model EDIFileStoreWebApp.Models.watchlist
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>watchlist</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ISA" class="control-label"></label>
+                <input asp-for="ISA" class="form-control" />
+                <span asp-validation-for="ISA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GS" class="control-label"></label>
+                <input asp-for="GS" class="form-control" />
+                <span asp-validation-for="GS" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ST" class="control-label"></label>
+                <input asp-for="ST" class="form-control" />
+                <span asp-validation-for="ST" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="B4" class="control-label"></label>
+                <input asp-for="B4" class="form-control" />
+                <span asp-validation-for="B4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SE" class="control-label"></label>
+                <input asp-for="SE" class="form-control" />
+                <span asp-validation-for="SE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GE" class="control-label"></label>
+                <input asp-for="GE" class="form-control" />
+                <span asp-validation-for="GE" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IEA" class="control-label"></label>
+                <input asp-for="IEA" class="form-control" />
+                <span asp-validation-for="IEA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

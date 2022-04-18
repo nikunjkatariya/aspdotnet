@@ -1,0 +1,11 @@
+C:\Users\raytex\source\repos\aspdotnet\Chatbot\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\raytex\source\repos\aspdotnet\Chatbot\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\raytex\source\repos\aspdotnet\Chatbot\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\raytex\source\repos\aspdotnet\Chatbot\ConsoleApp1\ConsoleApp1\bin\Debug\System.Data.SqlClient.dll
+C:\Users\raytex\source\repos\aspdotnet\Chatbot\ConsoleApp1\ConsoleApp1\bin\Debug\System.Data.SqlClient.xml
+C:\Users\raytex\source\repos\aspdotnet\Chatbot\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\aspdotnet\Chatbot\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\aspdotnet\Chatbot\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\aspdotnet\Chatbot\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\raytex\source\repos\aspdotnet\Chatbot\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\raytex\source\repos\aspdotnet\Chatbot\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

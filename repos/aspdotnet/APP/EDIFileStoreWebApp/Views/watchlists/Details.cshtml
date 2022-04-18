@@ -1,0 +1,60 @@
+﻿@model EDIFileStoreWebApp.Models.watchlist
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>watchlist</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ISA)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ISA)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GS)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GS)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ST)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ST)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.B4)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.B4)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GE)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IEA)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IEA)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "orp57Ya/nimWKefKqHG2AJsxFzrI61+ZxdH32cvEmRc=",
+  "Source": "BookWebApiVSix",
+  "BasePath": "_content/BookWebApiVSix",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uAFRdWE15UjQ9S0oFWyHL8Gn75ex0o7D6gDiox8PTuQ=",
+  "Source": "ContainersAuthenticationWebAPI",
+  "BasePath": "_content/ContainersAuthenticationWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
