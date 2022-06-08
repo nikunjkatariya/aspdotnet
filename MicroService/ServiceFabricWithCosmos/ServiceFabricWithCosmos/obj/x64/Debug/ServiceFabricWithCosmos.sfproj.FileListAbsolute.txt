@@ -1,0 +1,1 @@
+C:\Users\raytex\source\repos\MicroService\ServiceFabricWithCosmos\ServiceFabricWithCosmos\obj\x64\Debug\ServiceFabricWithCosmos.sfproj.CoreCompileInputs.cache

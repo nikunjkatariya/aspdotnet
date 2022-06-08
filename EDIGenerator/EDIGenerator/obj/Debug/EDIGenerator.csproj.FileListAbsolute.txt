@@ -1,0 +1,11 @@
+C:\Users\raytex\source\repos\EDIGenerator\EDIGenerator\bin\Debug\EDIGenerator.exe.config
+C:\Users\raytex\source\repos\EDIGenerator\EDIGenerator\bin\Debug\EDIGenerator.exe
+C:\Users\raytex\source\repos\EDIGenerator\EDIGenerator\bin\Debug\EDIGenerator.pdb
+C:\Users\raytex\source\repos\EDIGenerator\EDIGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\raytex\source\repos\EDIGenerator\EDIGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\raytex\source\repos\EDIGenerator\EDIGenerator\obj\Debug\EDIGenerator.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\EDIGenerator\EDIGenerator\obj\Debug\EDIGenerator.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\EDIGenerator\EDIGenerator\obj\Debug\EDIGenerator.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\EDIGenerator\EDIGenerator\obj\Debug\EDIGenerator.csproj.CopyComplete
+C:\Users\raytex\source\repos\EDIGenerator\EDIGenerator\obj\Debug\EDIGenerator.exe
+C:\Users\raytex\source\repos\EDIGenerator\EDIGenerator\obj\Debug\EDIGenerator.pdb

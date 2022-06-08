@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RqcFbpUn4wxfSQk6n0rMRu49HpMxLdSb1+Urf8JDJ2c=",
+  "Source": "StatefulWebAPI",
+  "BasePath": "_content/StatefulWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

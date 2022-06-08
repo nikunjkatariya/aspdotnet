@@ -1,0 +1,1 @@
+C:\Users\raytex\source\repos\MicroService\StatefulAPITest\StatefulAPITest\obj\x64\Debug\StatefulAPITest.sfproj.CoreCompileInputs.cache

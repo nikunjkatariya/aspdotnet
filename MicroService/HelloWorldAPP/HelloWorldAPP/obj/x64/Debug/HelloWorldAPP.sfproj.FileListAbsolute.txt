@@ -1,0 +1,1 @@
+C:\Users\raytex\source\repos\MicroService\HelloWorldAPP\HelloWorldAPP\obj\x64\Debug\HelloWorldAPP.sfproj.CoreCompileInputs.cache

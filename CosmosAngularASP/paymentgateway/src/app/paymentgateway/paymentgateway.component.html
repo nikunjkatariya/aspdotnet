@@ -1,0 +1,74 @@
+<div class="d-flex my-3 justify-content-center">
+    <form [formGroup]="PaymentForm" (ngSubmit)="PostPayment()" class="border p-2 col-4">
+      <div>
+        <h3>Payment</h3>
+      </div>
+      <div class="form-row row">
+        <div class="form-group col-md-6">
+          <label>Amount</label>
+          <input type="text" class="form-control" formControlName="Amount"
+            [ngClass]="{ 'is-invalid': submitted && f.Amount.errors }" pattern="[0-9]{1,}" />
+        </div>
+      </div><br>
+      <div class="form-group">
+        <label>Bank Name</label>
+        <input type="text" class="form-control" formControlName="BankName"
+          [ngClass]="{ 'is-invalid': submitted && f.BankName.errors }" />
+      </div><br>
+      <div class="form-group">
+        <label>Card Number</label>
+        <input type="text" class="form-control" formControlName="CardNumber"
+          [ngClass]="{ 'is-invalid': submitted && f.CardNumber.errors }" pattern="[0-9]{14}" />
+      </div>
+      <br>
+      <div class="form-row row mx-5">
+        <div class="form-group col-3">
+          <label>MM</label>
+          <input type="text" class="form-control" formControlName="ValidMonth"
+            [ngClass]="{ 'is-invalid': submitted && f.ValidMonth.errors }" pattern="[0-9]{2}" />
+        </div>/
+        <div class="form-group col-3">
+          <label>YY</label>
+          <input type="text" class="form-control" formControlName="ValidYear"
+            [ngClass]="{ 'is-invalid': submitted && f.ValidYear.errors }" pattern="[0-9]{2}" />
+        </div>
+        <div class="form-group col-4 ms-auto">
+          <label>CVV</label>
+          <input type="password" class="form-control" formControlName="CVV"
+            [ngClass]="{ 'is-invalid': submitted && f.CVV.errors }" pattern="[0-9]{3}" />
+        </div>
+      </div><br>
+      <div class="form-group">
+        <label>Name on Card</label>
+        <input type="text" class="form-control" formControlName="CardHolder"
+          [ngClass]="{ 'is-invalid': submitted && f.CardHolder.errors }" />
+      </div><br>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">Make Payment</button>
+      </div>
+    </form>
+  </div>
+  <div class="container border">
+    <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">TransactionID</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Bank</th>
+          <th scope="col">Card Number</th>
+          <th scope="col">Holder Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let payment of ShowPayment; let i = index">
+          <td scope="row">{{i+1}}</td>
+          <td>{{payment.transactionId}}</td>
+          <td>{{payment.amount}}</td>
+          <td>{{payment.bankName}}</td>
+          <td>{{payment.cardNumber}}</td>
+          <td>{{payment.cardHolder}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

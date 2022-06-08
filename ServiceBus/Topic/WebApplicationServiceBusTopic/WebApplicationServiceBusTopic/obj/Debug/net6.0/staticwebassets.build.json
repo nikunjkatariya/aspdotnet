@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MmArP18ZKKuCuXMyaBdKdaewLqNYiqAf1DRmmGS8HJw=",
+  "Source": "WebApplicationServiceBusTopic",
+  "BasePath": "_content/WebApplicationServiceBusTopic",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

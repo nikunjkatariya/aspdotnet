@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hliSjqVkTu0gbPiAEHw2y6C55952v3jW9748/YVGHI0=",
+  "Source": "WebApplicationServiceBusTopicReceiver",
+  "BasePath": "_content/WebApplicationServiceBusTopicReceiver",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

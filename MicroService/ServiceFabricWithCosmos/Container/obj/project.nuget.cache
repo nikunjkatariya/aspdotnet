@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cbj05oZEDKRg7IYTJ9LM/hVoRODK0VUerET/aVDRp9EZb/eNQbEjnAFWNPok8761075ENVy9soAIoQ5x6Z1qgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\raytex\\source\\repos\\MicroService\\ServiceFabricWithCosmos\\Container\\Container.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.servicefabric\\8.2.1571\\microsoft.servicefabric.8.2.1571.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.servicefabric.aspnetcore.abstractions\\5.2.1571\\microsoft.servicefabric.aspnetcore.abstractions.5.2.1571.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.servicefabric.aspnetcore.kestrel\\5.2.1571\\microsoft.servicefabric.aspnetcore.kestrel.5.2.1571.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.servicefabric.data\\5.2.1571\\microsoft.servicefabric.data.5.2.1571.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.servicefabric.data.extensions\\5.2.1571\\microsoft.servicefabric.data.extensions.5.2.1571.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.servicefabric.data.interfaces\\5.2.1571\\microsoft.servicefabric.data.interfaces.5.2.1571.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.servicefabric.diagnostics.internal\\5.2.1571\\microsoft.servicefabric.diagnostics.internal.5.2.1571.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.servicefabric.services\\5.2.1571\\microsoft.servicefabric.services.5.2.1571.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.0\\microsoft.netcore.app.runtime.win-x64.6.0.0.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.0\\microsoft.aspnetcore.app.runtime.win-x64.6.0.0.nupkg.sha512",
+    "C:\\Users\\raytex\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.0\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

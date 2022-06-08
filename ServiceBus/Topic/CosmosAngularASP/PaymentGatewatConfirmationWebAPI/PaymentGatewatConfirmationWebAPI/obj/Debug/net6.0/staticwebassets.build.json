@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CCrRWtwhT85szu9zBcgKO9iiSxEMp0vq/eHRR6Ed6co=",
+  "Source": "PaymentGatewatConfirmationWebAPI",
+  "BasePath": "_content/PaymentGatewatConfirmationWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

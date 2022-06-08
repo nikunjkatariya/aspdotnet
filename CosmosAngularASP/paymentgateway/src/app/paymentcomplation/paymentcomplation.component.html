@@ -1,0 +1,10 @@
+<div class="d-flex justify-content-center" *ngIf="status">
+    <div class="d-flex flex-column col-4">
+        <div class="card p-3">
+            <label><b>Transaction ID: </b> {{this.paymentdata.transactionId}}</label><br>
+            <label><b>Bank: </b> {{this.paymentdata.bankName}}</label><br>
+            <label><b>Amount: </b> {{this.paymentdata.amount}}</label>
+        </div>
+        <button class="btn btn-success" (click)="processed()">Ok</button>
+    </div>
+</div>

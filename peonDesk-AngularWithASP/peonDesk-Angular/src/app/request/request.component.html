@@ -1,0 +1,130 @@
+<div *ngIf="this.UserType=='Professor'">
+    <div class="container col-12 text-end">
+        <button class="btn btn-success" type="button" (click)="open(content)">New Request</button>
+    </div>
+    <div class="container">
+        <table class="table table-hover mt-2">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Receiver</th>
+                    <th scope="col">Document Details</th>
+                    <th scope="col">Taken</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Peon</th>
+                    <th scope="col">Delivery Status</th>
+                    <th scope="col">Delivered</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of Requests; let i = index">
+                    <th scope="row">{{i+1}}</th>
+                    <td>{{item.recieverId.firstName}} {{item.recieverId.lastName}}<br>{{item.recieverId.sittingBlock}}, {{item.recieverId.sittingLocation}}<br>{{item.recieverId.contact}}</td>
+                    <td>{{item.documentDetails}}</td>
+                    <td>{{item.takenDate}}</td>
+                    <td *ngIf="item.requiestStatus==true">Requested</td>
+                    <td *ngIf="item.requiestStatus==false">Accepted</td>
+                    <td>{{item.peonId.name}}<br>{{item.peonId.contact}}</td>
+                    <td *ngIf="item.deliveryStatus==true">Delivered</td>
+                    <td *ngIf="item.deliveryStatus==false">Waiting</td>
+                    <td>{{item.deliveryDate}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Template -->
+    <ng-template #content let-modal>
+        <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title">Add Request</h4>
+            <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+        </div>
+        <div class="modal-body">
+            <form [formGroup]="RequestForm" (ngSubmit)="PostRequest()">
+                <div class="form-group col-md-12">
+                    <label for="sourcelocation">Receiver Details</label><br />
+                    <select class="form-select" formControlName="recieverId" name="recieverId">
+                        <option disabled>Select Faculty</option>
+                        <option [ngValue]="item.id" *ngFor="let item of StaffData">
+                            {{item.firstName}} {{item.lastName}}, {{item.sittingBlock}} - {{item.sittingLocation}}
+                        </option>
+                    </select>
+                </div>
+                <div class="form-row row mt-3">
+                    <div class="form-group col-md-6">
+                        <label>Document Details</label>
+                        <input type="text" class="form-control" formControlName="documentDetails">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Date</label>
+                        <input type="datetime-local" class="form-control" formControlName="takenDate">
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <button type="submit" class="col-6 btn btn-primary" (click)="modal.dismiss('Cross click')"
+                        [disabled]="RequestForm.invalid"> Submit </button>
+                </div>
+            </form>
+        </div>
+    </ng-template>
+</div>
+<div *ngIf="this.UserType=='Peon'">
+    <h4 class="text-center">Accepted Requests</h4>
+    <div class="container">
+        <table class="table table-hover mt-2">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Sender</th>
+                    <th scope="col">Receiver</th>
+                    <th scope="col">Document Details</th>
+                    <th scope="col">Taken</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Peon</th>
+                    <th scope="col">Delivery Status</th>
+                    <th scope="col">Delivered</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let it of PeonRequest; let j = index">
+                    <th scope="row">{{j+1}}</th>
+                    <td>{{it.senderId.firstName}} {{it.senderId.lastName}}<br>{{it.senderId.sittingBlock}}, {{it.senderId.sittingLocation}}<br>{{it.senderId.contact}}</td>
+                    <td>{{it.recieverId.firstName}} {{it.recieverId.lastName}}<br>{{it.recieverId.sittingBlock}}, {{it.recieverId.sittingLocation}}<br>{{it.recieverId.contact}}</td>
+                    <td>{{it.documentDetails}}</td>
+                    <td>{{it.takenDate}}</td>
+                    <td *ngIf="it.requiestStatus==true">Requested</td>
+                    <td *ngIf="it.requiestStatus==false">Accepted</td>
+                    <td>{{it.peonId.name}}<br>{{it.peonId.contact}}</td>
+                    <td *ngIf="it.deliveryStatus==true">Delivered</td>
+                    <td *ngIf="it.deliveryStatus==false">Waiting</td>
+                    <td>{{it.deliveryDate}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h4 class="text-center mt-5">New Requests</h4>
+    <div class="container">
+        <table class="table table-hover mt-2">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Sender</th>
+                    <th scope="col">Receiver</th>
+                    <th scope="col">Document Details</th>
+                    <th scope="col">Taken</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of Requests; let i = index">
+                    <th scope="row">{{i+1}}</th>
+                    <td>{{item.senderId.firstName}} {{item.senderId.lastName}}<br>{{item.senderId.sittingBlock}}, {{item.senderId.sittingLocation}}<br>{{item.senderId.contact}}</td>
+                    <td>{{item.recieverId.firstName}} {{item.recieverId.lastName}}<br>{{item.recieverId.sittingBlock}}, {{item.recieverId.sittingLocation}}<br>{{item.recieverId.contact}}</td>
+                    <td>{{item.documentDetails}}</td>
+                    <td>{{item.takenDate}}</td>
+                    <td *ngIf="item.requiestStatus==true"><button class="btn btn-primary" (click)="acceptRequest(item)">Accept</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

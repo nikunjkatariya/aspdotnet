@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AiRAAgVmu4EmX2fNOWVfx/QSWUb6EyH05Z8wt9d6j3s=",
+  "Source": "PeonDeskWebAPI",
+  "BasePath": "_content/PeonDeskWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

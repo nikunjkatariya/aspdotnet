@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\raytex\source\repos\Product Training Work\Task 1\WcfService\WcfMVCApplication\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\raytex\source\repos\Product Training Work\Task 1\WcfService\WcfMVCApplication\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\raytex\source\repos\Product Training Work\Task 1\WcfService\WcfMVCApplication\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

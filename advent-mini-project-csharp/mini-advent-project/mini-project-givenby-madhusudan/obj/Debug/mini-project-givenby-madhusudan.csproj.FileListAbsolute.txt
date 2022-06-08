@@ -1,0 +1,8 @@
+C:\Users\raytex\source\repos\mini-project-givenby-madhusudan\mini-project-givenby-madhusudan\bin\Debug\mini-project-givenby-madhusudan.exe.config
+C:\Users\raytex\source\repos\mini-project-givenby-madhusudan\mini-project-givenby-madhusudan\bin\Debug\mini-project-givenby-madhusudan.exe
+C:\Users\raytex\source\repos\mini-project-givenby-madhusudan\mini-project-givenby-madhusudan\bin\Debug\mini-project-givenby-madhusudan.pdb
+C:\Users\raytex\source\repos\mini-project-givenby-madhusudan\mini-project-givenby-madhusudan\obj\Debug\mini-project-givenby-madhusudan.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\mini-project-givenby-madhusudan\mini-project-givenby-madhusudan\obj\Debug\mini-project-givenby-madhusudan.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\mini-project-givenby-madhusudan\mini-project-givenby-madhusudan\obj\Debug\mini-project-givenby-madhusudan.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\mini-project-givenby-madhusudan\mini-project-givenby-madhusudan\obj\Debug\mini-project-givenby-madhusudan.exe
+C:\Users\raytex\source\repos\mini-project-givenby-madhusudan\mini-project-givenby-madhusudan\obj\Debug\mini-project-givenby-madhusudan.pdb

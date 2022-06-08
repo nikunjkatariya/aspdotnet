@@ -1,0 +1,25 @@
+<div class="container">
+  <app-inspection></app-inspection>  
+</div>
+
+<ng-template #content let-c="close" let-d="dismiss" >
+  <form [formGroup]="loginForm" (ngSubmit)="authentication(loginForm)">
+      <div class="modal-header">
+          <h4 class="modal-title" id="modal-basic-title">Log In</h4>
+      </div>
+      <div class="modal-body">
+          <div class="row m-0">
+              <div class="col-sm-6">
+                  <input formControlName="username" placeholder="Provide Username" class="form-control mb-4">
+              </div>
+              <div class="col-sm-6">
+                  <input formControlName="password" type="password" placeholder="Provide Password" class="form-control">
+              </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-primary" type="submit" [disabled]="!loginForm.valid">Submit</button>
+          <button type="button" class="btn btn-outline-danger" *ngIf="isLogin" (click)="d('Cross click')">Close</button>
+      </div>
+  </form>
+</ng-template>

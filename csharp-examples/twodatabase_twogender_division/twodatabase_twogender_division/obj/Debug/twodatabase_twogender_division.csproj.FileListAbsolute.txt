@@ -1,0 +1,8 @@
+C:\Users\raytex\source\repos\csharp-examples\twodatabase_twogender_division\twodatabase_twogender_division\bin\Debug\twodatabase_twogender_division.exe.config
+C:\Users\raytex\source\repos\csharp-examples\twodatabase_twogender_division\twodatabase_twogender_division\bin\Debug\twodatabase_twogender_division.exe
+C:\Users\raytex\source\repos\csharp-examples\twodatabase_twogender_division\twodatabase_twogender_division\bin\Debug\twodatabase_twogender_division.pdb
+C:\Users\raytex\source\repos\csharp-examples\twodatabase_twogender_division\twodatabase_twogender_division\obj\Debug\twodatabase_twogender_division.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\csharp-examples\twodatabase_twogender_division\twodatabase_twogender_division\obj\Debug\twodatabase_twogender_division.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\csharp-examples\twodatabase_twogender_division\twodatabase_twogender_division\obj\Debug\twodatabase_twogender_division.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\csharp-examples\twodatabase_twogender_division\twodatabase_twogender_division\obj\Debug\twodatabase_twogender_division.exe
+C:\Users\raytex\source\repos\csharp-examples\twodatabase_twogender_division\twodatabase_twogender_division\obj\Debug\twodatabase_twogender_division.pdb

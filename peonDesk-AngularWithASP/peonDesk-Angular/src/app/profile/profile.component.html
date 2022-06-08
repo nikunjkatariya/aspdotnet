@@ -1,0 +1,43 @@
+<div class="vh-100 col-8 mx-auto" *ngIf="this.UserType=='Peon'">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>Username</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>{{this.UserData.name}}</th>
+                <th>{{this.UserData.contact}}</th>
+                <th>{{this.UserData.username}}</th>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="vh-100 col-10 mx-auto" *ngIf="this.UserType=='Professor'">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Block</th>
+                <th>Location</th>
+                <th>Contact</th>
+                <th>Username</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>{{this.UserData.firstName}}</th>
+                <th>{{this.UserData.lastName}}</th>
+                <th>{{this.UserData.sittingBlock}}</th>
+                <th>{{this.UserData.sittingLocation}}</th>
+                <th>{{this.UserData.contact}}</th>
+                <th>{{this.UserData.username}}</th>
+            </tr>
+        </tbody>
+    </table>
+</div>

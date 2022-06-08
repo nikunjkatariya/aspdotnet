@@ -1,0 +1,8 @@
+C:\Users\raytex\source\repos\MySecondDayAPP\MySecondDayAPP\bin\Debug\MySecondDayAPP.exe.config
+C:\Users\raytex\source\repos\MySecondDayAPP\MySecondDayAPP\bin\Debug\MySecondDayAPP.exe
+C:\Users\raytex\source\repos\MySecondDayAPP\MySecondDayAPP\bin\Debug\MySecondDayAPP.pdb
+C:\Users\raytex\source\repos\MySecondDayAPP\MySecondDayAPP\obj\Debug\MySecondDayAPP.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\MySecondDayAPP\MySecondDayAPP\obj\Debug\MySecondDayAPP.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\MySecondDayAPP\MySecondDayAPP\obj\Debug\MySecondDayAPP.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\MySecondDayAPP\MySecondDayAPP\obj\Debug\MySecondDayAPP.exe
+C:\Users\raytex\source\repos\MySecondDayAPP\MySecondDayAPP\obj\Debug\MySecondDayAPP.pdb

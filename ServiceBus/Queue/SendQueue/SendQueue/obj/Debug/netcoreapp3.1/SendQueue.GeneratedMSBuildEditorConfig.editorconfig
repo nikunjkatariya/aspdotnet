@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = SendQueue
+build_property.ProjectDir = C:\Users\raytex\source\repos\ServiceBus\Queue\SendQueue\SendQueue\

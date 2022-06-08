@@ -1,0 +1,8 @@
+C:\Users\raytex\source\repos\csharp-new-project\csharp-new-project\bin\Debug\csharp-new-project.exe.config
+C:\Users\raytex\source\repos\csharp-new-project\csharp-new-project\bin\Debug\csharp-new-project.exe
+C:\Users\raytex\source\repos\csharp-new-project\csharp-new-project\bin\Debug\csharp-new-project.pdb
+C:\Users\raytex\source\repos\csharp-new-project\csharp-new-project\obj\Debug\csharp-new-project.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\csharp-new-project\csharp-new-project\obj\Debug\csharp-new-project.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\csharp-new-project\csharp-new-project\obj\Debug\csharp-new-project.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\csharp-new-project\csharp-new-project\obj\Debug\csharp-new-project.exe
+C:\Users\raytex\source\repos\csharp-new-project\csharp-new-project\obj\Debug\csharp-new-project.pdb

@@ -1,0 +1,3 @@
+[submodule "UserDetails"]
+	path = UserDetails
+	url = https://github.com/nikunjkatariya/WCFService.git

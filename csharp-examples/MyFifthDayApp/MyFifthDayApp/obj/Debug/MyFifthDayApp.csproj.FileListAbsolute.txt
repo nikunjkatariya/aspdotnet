@@ -1,0 +1,8 @@
+C:\Users\raytex\source\repos\csharp-examples\MyFifthDayApp\MyFifthDayApp\bin\Debug\MyFifthDayApp.exe.config
+C:\Users\raytex\source\repos\csharp-examples\MyFifthDayApp\MyFifthDayApp\bin\Debug\MyFifthDayApp.exe
+C:\Users\raytex\source\repos\csharp-examples\MyFifthDayApp\MyFifthDayApp\bin\Debug\MyFifthDayApp.pdb
+C:\Users\raytex\source\repos\csharp-examples\MyFifthDayApp\MyFifthDayApp\obj\Debug\MyFifthDayApp.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\csharp-examples\MyFifthDayApp\MyFifthDayApp\obj\Debug\MyFifthDayApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\csharp-examples\MyFifthDayApp\MyFifthDayApp\obj\Debug\MyFifthDayApp.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\csharp-examples\MyFifthDayApp\MyFifthDayApp\obj\Debug\MyFifthDayApp.exe
+C:\Users\raytex\source\repos\csharp-examples\MyFifthDayApp\MyFifthDayApp\obj\Debug\MyFifthDayApp.pdb

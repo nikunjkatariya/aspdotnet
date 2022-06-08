@@ -1,0 +1,117 @@
+<div class="vh-100 d-flex flex-column align-items-center">
+    <h2 class="text-center mb-2">PeonDesk</h2>
+    <div class="d-flex justify-content-around mb-2 w-25">
+        <div class="btn-group w-100" role="group">
+            <button type="button" class="btn btn-lg shadow-none w-75" [ngClass]="this.UserType!='Peon'?'btn-primary':'btn-info'" (click)="userType(1)">Professor</button>
+            <button type="button" class="btn btn-lg shadow-none w-75" [ngClass]="this.UserType!='Peon'?'btn-info':'btn-primary'" (click)="userType(2)">Peon</button>
+        </div>
+    </div>
+    <!-- Login Form -->
+    <div class="mx-auto w-50" *ngIf="this.FormType=='Login'">
+        <div class="w-50 h-50 mx-auto ">
+            <div class="mb-2">
+                <label class="form-label mb-0">User Type</label>
+                <input type="text" name="UserType" class="form-control" disabled="" [value]="this.UserType" />
+            </div>
+            <form [formGroup]="UserFormData" (ngSubmit)="AuthCheck('Login')">
+                <div class="form-white mb-3">
+                    <label class="form-label mb-0">Username</label>
+                    <input type="text" formControlName="Username" class="form-control" placeholder="Username"
+                        [ngClass]="{ 'is-invalid': submitted && f.Username.errors }" />
+                    <div *ngIf="submitted && f.Username.errors" class="invalid-feedback">
+                        <div *ngIf="f.Username.errors.required">User Name is required</div>
+                    </div>
+                </div>
+                <div class="form-outline form-white mb-2">
+                    <label class="form-label mb-0">Password</label>
+                    <input type="password" formControlName="Password" class="form-control form-control-md"
+                        placeholder="Password" [ngClass]="{ 'is-invalid': submitted && f.Password.errors }" />
+                    <div *ngIf="submitted && f.Password.errors" class="invalid-feedback">
+                        <div *ngIf="f.Password.errors.required">Password is required</div>
+                    </div>
+                </div>
+                <button class="btn btn-md btn-success col-12 fw-bold mt-3" >LOGIN</button>
+            </form>
+            <p class="text-end">New User? <a class="text-decoration-none"
+                    (click)="this.FormType='Registration'">Register</a></p>
+        </div>
+        <ngb-alert *ngIf="alertmsg" (closed)="alertmsg = false" type="danger" class="error-msg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-exclamation-diamond" viewBox="0 0 16 16">
+                <path
+                    d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z" />
+                <path
+                    d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z" />
+            </svg>
+            USERNAME OR PAASWORD IS WRONG!
+        </ngb-alert>
+    </div>
+    <!-- Registration Form -->
+    <div class="mx-auto w-75" *ngIf="this.FormType=='Registration'">
+        <h4 class="text-center my-4">{{this.UserType}} -<span class="text-secondary"> Registration</span></h4>
+        <div class="w-50 mx-auto p-2">
+            <form [formGroup]="UserRegistrationData" (ngSubmit)="AuthCheck('Registration')">
+                <div class="row" *ngIf="this.UserType!='Peon'">
+                    <div class="form-white col-6 mb-3">
+                        <label class="form-label mb-0">Firstname</label>
+                        <input type="text" formControlName="Firstname" class="form-control" placeholder="Firstname"
+                            [ngClass]="{ 'is-invalid': regsubmitted && reg.Firstname.errors }" />
+                    </div>
+                    <div class="form-outline col-6 form-white mb-2">
+                        <label class="form-label mb-0">Lastname</label>
+                        <input type="text" formControlName="Lastname" class="form-control form-control-md"
+                            placeholder="Lastname" [ngClass]="{ 'is-invalid': regsubmitted && reg.Lastname.errors }" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-white col-6 mb-3" *ngIf="this.UserType=='Peon'">
+                        <label class="form-label mb-0">Name</label>
+                        <input type="text" formControlName="Name" class="form-control" placeholder="Name"
+                            [ngClass]="{ 'is-invalid': regsubmitted && reg.Name.errors }" />
+                    </div>
+                    <div class="form-white col-6 mb-3">
+                        <label class="form-label mb-0">Contact</label>
+                        <input type="text" formControlName="Contact" class="form-control" placeholder="XXXXX XXXXX"
+                            [ngClass]="{ 'is-invalid': regsubmitted && reg.Contact.errors }" />
+                    </div>
+                </div>
+                <div class="row" *ngIf="this.UserType!='Peon'">
+                    <div class="form-white col-6 mb-3">
+                        <label class="form-label mb-0">Block</label>
+                        <input type="text" formControlName="Block" class="form-control" placeholder="Block Number"
+                            [ngClass]="{ 'is-invalid': regsubmitted && reg.Block.errors }" />
+                    </div>
+                    <div class="form-outline col-6 form-white mb-2">
+                        <label class="form-label mb-0">Location</label>
+                        <input type="text" formControlName="Location" class="form-control form-control-md"
+                            placeholder="Location" [ngClass]="{ 'is-invalid': regsubmitted && reg.Location.errors }" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-white col-6 mb-3">
+                        <label class="form-label mb-0">Username</label>
+                        <input type="text" formControlName="username" class="form-control" placeholder="Username"
+                            [ngClass]="{ 'is-invalid': regsubmitted && reg.username.errors }" />
+                    </div>
+                    <div class="form-outline col-6 form-white mb-2">
+                        <label class="form-label mb-0">Password</label>
+                        <input type="password" formControlName="password" class="form-control form-control-md"
+                            placeholder="Password" [ngClass]="{ 'is-invalid': regsubmitted && reg.password.errors }" />
+                    </div>
+                </div>
+                <button class="btn btn-md btn-success col-12 fw-bold mt-3">Register</button>
+            </form>
+            <p class="text-end"><a class="text-decoration-none" (click)="this.FormType='Login'">Back To Login</a></p>
+        </div>
+        <ngb-alert *ngIf="regalertmsg" (closed)="regalertmsg = false" type="danger" class="error-msg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-exclamation-diamond" viewBox="0 0 16 16">
+                <path
+                    d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z" />
+                <path
+                    d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z" />
+            </svg>
+            Username is Already Registered!
+        </ngb-alert>
+    </div>
+</div>

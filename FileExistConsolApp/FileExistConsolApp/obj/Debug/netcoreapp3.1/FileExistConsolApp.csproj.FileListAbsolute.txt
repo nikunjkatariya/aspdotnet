@@ -1,0 +1,14 @@
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\bin\Debug\netcoreapp3.1\FileExistConsolApp.exe
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\bin\Debug\netcoreapp3.1\FileExistConsolApp.deps.json
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\bin\Debug\netcoreapp3.1\FileExistConsolApp.runtimeconfig.json
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\bin\Debug\netcoreapp3.1\FileExistConsolApp.runtimeconfig.dev.json
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\bin\Debug\netcoreapp3.1\FileExistConsolApp.dll
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\bin\Debug\netcoreapp3.1\FileExistConsolApp.pdb
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\obj\Debug\netcoreapp3.1\FileExistConsolApp.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\obj\Debug\netcoreapp3.1\FileExistConsolApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\obj\Debug\netcoreapp3.1\FileExistConsolApp.AssemblyInfoInputs.cache
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\obj\Debug\netcoreapp3.1\FileExistConsolApp.AssemblyInfo.cs
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\obj\Debug\netcoreapp3.1\FileExistConsolApp.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\obj\Debug\netcoreapp3.1\FileExistConsolApp.dll
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\obj\Debug\netcoreapp3.1\FileExistConsolApp.pdb
+C:\Users\raytex\source\repos\FileExistConsolApp\FileExistConsolApp\obj\Debug\netcoreapp3.1\FileExistConsolApp.genruntimeconfig.cache

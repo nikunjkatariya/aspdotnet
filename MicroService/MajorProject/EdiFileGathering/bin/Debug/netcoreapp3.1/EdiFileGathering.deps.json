@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EdiFileGathering/1.0.0": {
+        "runtime": {
+          "EdiFileGathering.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EdiFileGathering/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

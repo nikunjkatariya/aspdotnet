@@ -1,0 +1,11 @@
+C:\Users\raytex\source\repos\csharp-examples\MyFourthDayApp\MyFourthDayApp\bin\Debug\MyFourthDayApp.exe.config
+C:\Users\raytex\source\repos\csharp-examples\MyFourthDayApp\MyFourthDayApp\bin\Debug\MyFourthDayApp.exe
+C:\Users\raytex\source\repos\csharp-examples\MyFourthDayApp\MyFourthDayApp\bin\Debug\MyFourthDayApp.pdb
+C:\Users\raytex\source\repos\csharp-examples\MyFourthDayApp\MyFourthDayApp\obj\Debug\MyFourthDayApp.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\csharp-examples\MyFourthDayApp\MyFourthDayApp\obj\Debug\MyFourthDayApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\csharp-examples\MyFourthDayApp\MyFourthDayApp\obj\Debug\MyFourthDayApp.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\csharp-examples\MyFourthDayApp\MyFourthDayApp\obj\Debug\MyFourthDayApp.exe
+C:\Users\raytex\source\repos\csharp-examples\MyFourthDayApp\MyFourthDayApp\obj\Debug\MyFourthDayApp.pdb
+C:\Users\raytex\source\repos\csharp-examples\MyFourthDayApp\MyFourthDayApp\bin\Debug\System.ValueTuple.dll
+C:\Users\raytex\source\repos\csharp-examples\MyFourthDayApp\MyFourthDayApp\bin\Debug\System.ValueTuple.xml
+C:\Users\raytex\source\repos\csharp-examples\MyFourthDayApp\MyFourthDayApp\obj\Debug\MyFourthDayApp.csproj.CopyComplete

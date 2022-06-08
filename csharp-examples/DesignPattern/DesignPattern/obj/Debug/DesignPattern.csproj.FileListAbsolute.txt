@@ -1,0 +1,8 @@
+C:\Users\raytex\source\repos\csharp-examples\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\csharp-examples\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\csharp-examples\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\csharp-examples\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe.config
+C:\Users\raytex\source\repos\csharp-examples\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe
+C:\Users\raytex\source\repos\csharp-examples\DesignPattern\DesignPattern\bin\Debug\DesignPattern.pdb
+C:\Users\raytex\source\repos\csharp-examples\DesignPattern\DesignPattern\obj\Debug\DesignPattern.exe
+C:\Users\raytex\source\repos\csharp-examples\DesignPattern\DesignPattern\obj\Debug\DesignPattern.pdb

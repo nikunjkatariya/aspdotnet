@@ -1,0 +1,16 @@
+C:\Users\raytex\source\repos\MyThirdDayApp\MyThirdDayApp\bin\Debug\MyThirdDayApp.exe.config
+C:\Users\raytex\source\repos\MyThirdDayApp\MyThirdDayApp\bin\Debug\MyThirdDayApp.exe
+C:\Users\raytex\source\repos\MyThirdDayApp\MyThirdDayApp\bin\Debug\MyThirdDayApp.pdb
+C:\Users\raytex\source\repos\MyThirdDayApp\MyThirdDayApp\obj\Debug\MyThirdDayApp.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\MyThirdDayApp\MyThirdDayApp\obj\Debug\MyThirdDayApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\MyThirdDayApp\MyThirdDayApp\obj\Debug\MyThirdDayApp.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\MyThirdDayApp\MyThirdDayApp\obj\Debug\MyThirdDayApp.exe
+C:\Users\raytex\source\repos\MyThirdDayApp\MyThirdDayApp\obj\Debug\MyThirdDayApp.pdb
+C:\Users\raytex\source\repos\csharp-examples\MyThirdDayApp\MyThirdDayApp\bin\Debug\MyThirdDayApp.exe.config
+C:\Users\raytex\source\repos\csharp-examples\MyThirdDayApp\MyThirdDayApp\bin\Debug\MyThirdDayApp.exe
+C:\Users\raytex\source\repos\csharp-examples\MyThirdDayApp\MyThirdDayApp\bin\Debug\MyThirdDayApp.pdb
+C:\Users\raytex\source\repos\csharp-examples\MyThirdDayApp\MyThirdDayApp\obj\Debug\MyThirdDayApp.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\csharp-examples\MyThirdDayApp\MyThirdDayApp\obj\Debug\MyThirdDayApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\csharp-examples\MyThirdDayApp\MyThirdDayApp\obj\Debug\MyThirdDayApp.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\csharp-examples\MyThirdDayApp\MyThirdDayApp\obj\Debug\MyThirdDayApp.exe
+C:\Users\raytex\source\repos\csharp-examples\MyThirdDayApp\MyThirdDayApp\obj\Debug\MyThirdDayApp.pdb

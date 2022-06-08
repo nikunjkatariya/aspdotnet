@@ -1,0 +1,8 @@
+C:\Users\raytex\source\repos\csharp-examples\ssmsDataConnection\ssmsDataConnection\bin\Debug\ssmsDataConnection.exe.config
+C:\Users\raytex\source\repos\csharp-examples\ssmsDataConnection\ssmsDataConnection\bin\Debug\ssmsDataConnection.exe
+C:\Users\raytex\source\repos\csharp-examples\ssmsDataConnection\ssmsDataConnection\bin\Debug\ssmsDataConnection.pdb
+C:\Users\raytex\source\repos\csharp-examples\ssmsDataConnection\ssmsDataConnection\obj\Debug\ssmsDataConnection.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\csharp-examples\ssmsDataConnection\ssmsDataConnection\obj\Debug\ssmsDataConnection.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\csharp-examples\ssmsDataConnection\ssmsDataConnection\obj\Debug\ssmsDataConnection.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\csharp-examples\ssmsDataConnection\ssmsDataConnection\obj\Debug\ssmsDataConnection.exe
+C:\Users\raytex\source\repos\csharp-examples\ssmsDataConnection\ssmsDataConnection\obj\Debug\ssmsDataConnection.pdb

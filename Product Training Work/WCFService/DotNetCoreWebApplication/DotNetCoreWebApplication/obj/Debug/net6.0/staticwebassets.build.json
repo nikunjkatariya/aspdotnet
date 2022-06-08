@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1KN7o5CdcMtlP5fuLJZsqFf7KukTCt7Bn561fgt2GHg=",
+  "Source": "DotNetCoreWebApplication",
+  "BasePath": "_content/DotNetCoreWebApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

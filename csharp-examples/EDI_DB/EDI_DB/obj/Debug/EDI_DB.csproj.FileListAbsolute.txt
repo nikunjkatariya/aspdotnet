@@ -1,0 +1,8 @@
+C:\Users\raytex\source\repos\csharp-examples\EDI_DB\EDI_DB\bin\Debug\EDI_DB.exe.config
+C:\Users\raytex\source\repos\csharp-examples\EDI_DB\EDI_DB\bin\Debug\EDI_DB.exe
+C:\Users\raytex\source\repos\csharp-examples\EDI_DB\EDI_DB\bin\Debug\EDI_DB.pdb
+C:\Users\raytex\source\repos\csharp-examples\EDI_DB\EDI_DB\obj\Debug\EDI_DB.csproj.AssemblyReference.cache
+C:\Users\raytex\source\repos\csharp-examples\EDI_DB\EDI_DB\obj\Debug\EDI_DB.csproj.SuggestedBindingRedirects.cache
+C:\Users\raytex\source\repos\csharp-examples\EDI_DB\EDI_DB\obj\Debug\EDI_DB.csproj.CoreCompileInputs.cache
+C:\Users\raytex\source\repos\csharp-examples\EDI_DB\EDI_DB\obj\Debug\EDI_DB.exe
+C:\Users\raytex\source\repos\csharp-examples\EDI_DB\EDI_DB\obj\Debug\EDI_DB.pdb
